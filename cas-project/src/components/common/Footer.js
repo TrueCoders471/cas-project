@@ -5,7 +5,6 @@ class Footer extends React.Component {
     render() {
         return (
             <div>
-                <p>Testing webhook for github - Remove me!</p>
                 <h3>This is a Footer with navigation</h3>
                 <IndexLink to="/" activeClassName="active">Home</IndexLink>
                 {" | "}

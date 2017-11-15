@@ -6,6 +6,9 @@ import LoginPage from './components/loginPage/LoginPage';
 import ForgotPassword from "./components/loginPage/ForgotPassword";
 import SignUpPage from './components/signUpPage/SignUpPage';
 import AdminPage from './components/adminPage/AdminPage';
+import RegisteredStudents from './components/adminPage/StudentsList';
+import Notetakers from './components/adminPage/NotetakersList';
+import CasForms from './components/adminPage/CasForms';
 import StudentPage from './components/studentPages/StudentPage';
 import StudentClasses from './components/studentPages/StudentClassesPage';
 import StudentClass from './components/classPages/StudentClassPage';
@@ -25,6 +28,9 @@ export default (
         <Route path="/forgotPassword" component={ForgotPassword}/>
         <Route path="/signUp" component={SignUpPage}/>
         <Route path="/admin" component={AdminPage}/>
+        <Route path="/studentsList" component={RegisteredStudents}/>
+        <Route path="/notetakersList" component={Notetakers}/>
+        <Route path="/casForms" component={CasForms}/>
         <Route path="/student" component={StudentPage}/>
         <Route path="/studentClasses" component={StudentClasses}/>
         <Route path="/studentClass" component={StudentClass}/>
