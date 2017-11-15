@@ -18,7 +18,7 @@ class LoginPage extends React.Component {
                 location.href = "/faculty";
                 break;
             default :
-                alert("Wrong Username. Try again");
+                alert("Wrong Username or Password");
         }
 
     }
