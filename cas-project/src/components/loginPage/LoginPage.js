@@ -41,6 +41,7 @@ class LoginPage extends React.Component {
                         <label>
                             <input type="checkbox" value="remember-me"/>
                             Remember me</label>
+                        <br/>
                         <button className="btn btn-lg btn-primary" type="submit" onClick={this.login}>Sign in</button>
                         <br/> <br/>
                         <button className="btn btn-lg btn-primary" onClick={this.forgotPassword}>Forgot password
