@@ -3,7 +3,7 @@ import React from 'react';
 class StudentClassPage extends React.Component {
 
     openNotes() {
-        location.href ='/studentNotes'
+        location.href ='/studentNotes';
     }
     render() {
 

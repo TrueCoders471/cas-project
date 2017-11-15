@@ -3,7 +3,7 @@ import React from 'react';
 class NotetakerUploadNotes extends React.Component {
 
     uploadNotes(){
-        alert("Download file here!")
+        alert("Download file here!");
     }
     render(){
         return(
