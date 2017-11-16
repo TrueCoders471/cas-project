@@ -1,10 +1,11 @@
 import React from 'react';
 
+
 class Header extends React.Component {
     render() {
         return (
-            <div>
-                <h3>HEADER</h3>
+            <div id="mainHeader">
+                <h3>Radford University CAS</h3>
             </div>
 
 

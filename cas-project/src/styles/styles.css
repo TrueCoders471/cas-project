@@ -8,7 +8,7 @@
 }
 
 .App-header {
-    background-color: #222;
+    background-color: #002222;
     height: 150px;
     padding: 20px;
     color: white;
@@ -27,4 +27,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+}
+#mainHeader {
+    background-color: #c2011b;
+    color: aliceblue;
 }
