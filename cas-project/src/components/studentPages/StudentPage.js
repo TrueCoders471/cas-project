@@ -1,7 +1,7 @@
 import React from 'react';
 
 class StudentPage extends React.Component {
-
+//Comment
     openClasses() {
         location.href = "/studentClasses";
     }
