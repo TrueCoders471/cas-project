@@ -18,7 +18,7 @@ class LoginPage extends React.Component {
                 location.href = "/faculty";
                 break;
             default :
-                alert("Wrong Username or Password");
+                alert("Wrong Username or Password.");
         }
 
     }
@@ -29,14 +29,16 @@ class LoginPage extends React.Component {
 
     render() {
         return (
-            <div className="container">
+            <div className="container" align="center">
                 <form className="form-signin">
                     <h2 className="form-signin-header">Center for Accessability Services</h2>
                     <label htmlFor="inputUsername" className="sr-only">RU Email</label>
+
                     <input type="text" id="inputUserName" className="form-control" placeholder="RU Email" required
                            autoFocus/>
                     <label htmlFor="inoutPassword" className="sr-only">Password</label>
                     <input type="password" id="inputPassword" className="form-control" placeholder="Password" required/>
+
                     <div className="checkbox">
                         <label>
                             <input type="checkbox" value="remember-me"/>
