@@ -29,27 +29,28 @@ class LoginPage extends React.Component {
 
     render() {
         return (
-            <div className="container" align="center">
-                <form className="form-signin">
-                    <h2 className="form-signin-header">Center for Accessability Services</h2>
-                    <label htmlFor="inputUsername" className="sr-only">RU Email</label>
+            <div id="container">
+                    <form className="form-signin">
+                        <h2 className="form-signin-header">Center for Accessability Services</h2>
 
-                    <input type="text" id="inputUserName" className="form-control" placeholder="RU Email" required
-                           autoFocus/>
-                    <label htmlFor="inoutPassword" className="sr-only">Password</label>
-                    <input type="password" id="inputPassword" className="form-control" placeholder="Password" required/>
+                        <label htmlFor="inputUsername" className="sr-only">RU Email</label>
 
-                    <div className="checkbox">
-                        <label>
-                            <input type="checkbox" value="remember-me"/>
-                            Remember me</label>
-                        <br/>
-                        <button className="btn btn-lg btn-primary" type="submit" onClick={this.login}>Sign in</button>
-                        <br/> <br/>
-                        <button className="btn btn-lg btn-primary" onClick={this.forgotPassword}>Forgot password
-                        </button>
-                    </div>
-                </form>
+                        <input type="text" id="inputUserName" className="form-control" placeholder="RU Email" required
+                           autoFocus />
+                        <label htmlFor="inoutPassword" className="sr-only">Password</label>
+                        <input type="password" id="inputPassword" className="form-control" placeholder="Password" required/>
+
+                        <div id="lower">
+                        <div className="checkbox">
+                            <label>
+                                <input type="checkbox" value="remember-me"/>
+                                Remember me</label>
+                            <br/>
+                            <button className="btn btn-lg btn-primary" type="submit" onClick={this.login}>Sign in</button>
+                            <p><a href="/forgotPassword">Forgot your password?</a></p>
+                        </div>
+                        </div>
+                    </form>
             </div>
         );
     }
