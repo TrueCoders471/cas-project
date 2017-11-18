@@ -12,7 +12,7 @@ import '../styles/styles.css';//will eventually need multiple style sheets for r
 class App extends Component {
 
     /**
-     * this render is the first to be called throught the project
+     * This render is the first to be called throught the project
      * every page is "Wrapped" with the Header banner and A Footer navigation
      * @returns {XML} (Markup Language) for rendering the footer and header around
      *                  elements within every page called specifically ->(props.children)
