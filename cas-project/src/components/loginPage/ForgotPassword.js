@@ -8,15 +8,20 @@ class ForgotPassword extends React.Component {
 
     render() {
         return (
-            <div className="container">
+            <div id="container">
                 <form className="form-signin">
-                    <h2 className="form-signin-header">Center for Accessability Services</h2>
-                    <h4>Enter the E-mail address that was used to create the account, an E-mail will then be sent to the
-                        specified E-mail address that will allow you to reset your password.</h4>
+                    <div id="top-div-Container">
+                        <h2 className="form-signin-header">Forgot Password</h2>
+                    </div>
+
+                    <h5>Enter the E-mail address that was used to create the account, an E-mail will then be sent to the
+                        specified E-mail address that will allow you to reset your password.</h5>
 
                     <input type="text" id="inputUserName" className="form-control" placeholder="RU Email" required
-                           autoFocus/>
-                    <button className="btn btn-lg btn-primary" type="submit" onClick={this.resetPassword}>Submit</button>
+                               autoFocus/>
+                    <br/><br/>
+
+                        <button className="btn btn-lg btn-primary" type="submit" onClick={this.resetPassword}>Submit</button>
                 </form>
             </div>
         );
