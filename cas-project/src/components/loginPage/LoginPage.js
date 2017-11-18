@@ -36,7 +36,12 @@ class LoginPage extends React.Component {
      */
     render() {
         return (
-            <div id="login-container">
+            <div id="LoginView-Container">
+                <div id="loginBackgroundStretch">
+                    <img className="background-image" src = "http://hdwarena.com/wp-content/uploads/2017/04/Beautiful-Wallpaper.jpg"/>
+                </div>
+            <div id="loginFields-container">
+
                     <form className="form-signin">
 
                         <div id="top-div-Container">
@@ -66,6 +71,7 @@ class LoginPage extends React.Component {
 
                         </div>
                     </form>
+            </div>
             </div>
         );
     }
