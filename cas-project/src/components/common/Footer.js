@@ -1,7 +1,16 @@
 import React from 'react';
 import {IndexLink, Link} from 'react-router';
 
+/**
+ * controls Javascript behavior of this Footer Component
+ */
 class Footer extends React.Component {
+
+    /**
+     * creates a reusable footer that can be reused across multiple views
+     * UI Reference: see .footer in styles.css for UI Behavior
+     * @returns {XML}
+     */
     render() {
         return (
             <div>
@@ -9,6 +18,8 @@ class Footer extends React.Component {
                 <IndexLink to="/" activeClassName="active">Home</IndexLink>
                 {" | "}
                 <Link to="/login" activeClassName="active">Login</Link>
+                {" | "}
+                <Link to="/signup" activeClassName="active">Signup</Link>
                 {" | "}
                 <IndexLink to="admin" activeClassName="active">Admin Page</IndexLink>
                 {" | "}

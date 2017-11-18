@@ -1,8 +1,15 @@
 import React from 'react';
 
+/**
+ * controls Javascript behavior of The Account Creation Page
+ */
+
 class LoginPage extends React.Component {
 
-
+    /**
+     * transitions the user to a particular Log-in persona specific view
+     * based upon there account type
+     */
     login() {
         switch (document.getElementById("inputUserName").value) {
             case 'admin@radford.edu' :
@@ -23,34 +30,38 @@ class LoginPage extends React.Component {
 
     }
 
-    forgotPassword() {
-        location.href = "/forgotPassword";
-    }
-
+    /**
+     * renders the components associated with the Login page
+     * @returns {XML} (Markup Language) for rendering the elements within this page
+     */
     render() {
         return (
-            <div id="container">
+            <div id="login-container">
                     <form className="form-signin">
 
                         <div id="top-div-Container">
                             <h2 className="form-signin-header">LOGIN</h2>
                         </div>
-
+                        <br/>
                         <label htmlFor="inputUsername" className="sr-only">RU Email</label>
                         <input type="text" id="inputUserName" className="form-control" placeholder="RU Email" required
                            autoFocus />
+                        <br/>
                         <label htmlFor="inoutPassword" className="sr-only">Password</label>
                         <input type="password" id="inputPassword" className="form-control" placeholder="Password" required/>
-
+                        <br/>
+                        <br/>
+                        <button className="btn btn-lg btn-primary" type="submit" onClick={this.login}>Sign in</button>
                         <div className="checkbox">
                             <label>
                                 <input type="checkbox" value="remember-me"/>
                                 Remember me
                             </label>
                             <br/>
-                            <button className="btn btn-lg btn-primary" type="submit" onClick={this.login}>Sign in</button>
                             <p>
                                 <a href="/forgotPassword">Forgot your password?</a>
+
+                                <a href="/Signup">Don't Have An Account?</a>
                             </p>
 
                         </div>
