@@ -5,6 +5,7 @@ import Footer from './common/Footer';
 import '../styles/styles.css';
 
 class App extends Component {
+
     render() {
         return (
             <div className="App">

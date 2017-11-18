@@ -31,24 +31,28 @@ class LoginPage extends React.Component {
         return (
             <div id="container">
                     <form className="form-signin">
-                        <h2 className="form-signin-header">Center for Accessability Services</h2>
+
+                        <div id="top-div-Container">
+                            <h2 className="form-signin-header">LOGIN</h2>
+                        </div>
 
                         <label htmlFor="inputUsername" className="sr-only">RU Email</label>
-
                         <input type="text" id="inputUserName" className="form-control" placeholder="RU Email" required
                            autoFocus />
                         <label htmlFor="inoutPassword" className="sr-only">Password</label>
                         <input type="password" id="inputPassword" className="form-control" placeholder="Password" required/>
 
-                        <div id="lower">
                         <div className="checkbox">
                             <label>
                                 <input type="checkbox" value="remember-me"/>
-                                Remember me</label>
+                                Remember me
+                            </label>
                             <br/>
                             <button className="btn btn-lg btn-primary" type="submit" onClick={this.login}>Sign in</button>
-                            <p><a href="/forgotPassword">Forgot your password?</a></p>
-                        </div>
+                            <p>
+                                <a href="/forgotPassword">Forgot your password?</a>
+                            </p>
+
                         </div>
                     </form>
             </div>
