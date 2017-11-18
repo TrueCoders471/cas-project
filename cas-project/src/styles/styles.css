@@ -121,6 +121,11 @@ html, body {
     margin-top: 0px;
 
 }
+banner-text {
+    font-size : 28px;
+    top: 0px;
+    position: relative;
+}
 
 /* This is the CSS that aligns
    the footer to the bottom of
