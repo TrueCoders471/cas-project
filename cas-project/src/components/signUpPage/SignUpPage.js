@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './signUpPage-Styles.css';
 /**
  * controls Javascript behavior of The Account Creation Page
  */
