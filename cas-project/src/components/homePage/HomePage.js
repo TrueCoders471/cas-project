@@ -5,7 +5,6 @@ class HomePage extends React.Component {
     render() {
         return (
             <div>
-                Home page here
                 <div className="jumbotron">
                     <h1>CAS - Center for Accessability Services </h1>
                     <p>Build using React, Redux and React Router</p>
