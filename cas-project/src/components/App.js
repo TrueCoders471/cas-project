@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import Header from './common/Header';
 import Footer from './common/Footer';
-import '../styles/styles.css';//will eventually need multiple style sheets for readability
+import '../styles/General-Styles.css';
 
 /**
  * This Class hierarchically is used to derive all Pages rendered within this project
