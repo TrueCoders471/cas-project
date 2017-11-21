@@ -1,5 +1,6 @@
 import React from 'react';
 import './loginPage-Styles.css';
+
 /**
  * controls Javascript behavior of The Account Creation Page
  */
@@ -29,11 +30,13 @@ class LoginPage extends React.Component {
         }
 
     }
+
     drawLogBackground() {
         return(<div id="loginBackgroundStretch">
-            <img className="background-image" src = "http://hdwarena.com/wp-content/uploads/2017/04/Beautiful-Wallpaper.jpg"/>
+            <img src = {require('./../../../public/images/loginBackground.jpg')}/>
         </div>);
     }
+
     /**
      * renders the components associated with the Login page
      * @returns {XML} (Markup Language) for rendering the elements within this page
@@ -59,6 +62,7 @@ class LoginPage extends React.Component {
                         <button className="btn btn-lg btn-primary" type="submit" onClick={this.login}>Sign in</button>
                         <div className="checkbox">
                             <label>
+
                                 <input type="checkbox" value="remember-me"/>
                                 Remember me
                             </label>
