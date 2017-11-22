@@ -20,7 +20,7 @@ class HomePage extends React.Component {
             <div id= "HomePageView-Container">
             <div id = "jumbo-Container">
                     <img id = "Jumbo-Image"
-                         src = {require ('./../../../public/images/hompage.jpg')}/>
+                         src = {require ('./../../../public/images/homepage.jpg')}/>
             </div>
                 <br></br>
                 <Link to="login" className="btn btn-primary btn-lg">Login here</Link>
