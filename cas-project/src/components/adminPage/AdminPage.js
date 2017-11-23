@@ -16,7 +16,7 @@ class AdminPage extends React.Component {
     render() {
         return (
             <div>
-                <h1>Admin Page here</h1>
+                <h1>Administrator</h1>
 
                 <button className="btn btn-lg btn-primary" type="submit" onClick={this.viewStudents}>View Registered Students</button>
                 <br /><br />
