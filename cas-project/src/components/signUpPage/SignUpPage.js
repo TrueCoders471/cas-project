@@ -37,7 +37,15 @@ class SignUpPage extends React.Component {
 
                     <input type="password" id="inputPassword" className="form-control" placeholder="Re-Enter Password" required/>
                     <div className="checkbox">
-
+                      <select id="acctTypeSelect">
+                          <option>Select Account Type</option>
+                          <option value="Administrator">Administrator</option>
+                          <option value="Faculty">Faculty</option>
+                          <option value="Student">Student</option>
+                          <option value="Notetaker">Notetaker</option>
+                      </select>
+                        <br/>
+                        <br/>
                         <button className="btn btn-lg btn-primary" type="submit" onClick={this.submitSignupRequest}>Sign Up</button>
                         <p>
                             <a href="/forgotPassword">Already Have an Account</a>
