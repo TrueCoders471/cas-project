@@ -18,7 +18,7 @@ class SignUpPage extends React.Component {
      */
     render() {
         return (
-            <div id="SignupView-Container">
+            <div id="SignupView-Container" className="sign-up-page">
                 <div id="loginBackgroundStretch">
                     <img className="background-image" src = "http://hdwarena.com/wp-content/uploads/2017/04/Beautiful-Wallpaper.jpg"/>
                 </div>

@@ -43,7 +43,7 @@ class LoginPage extends React.Component {
      */
     render() {
         return (
-            <div id="LoginView-Container">
+            <div id="LoginView-Container" className="login-page">
                 {this.drawLogBackground()}
             <div id="loginFields-container">
                     <form className="form-signin">
@@ -59,7 +59,7 @@ class LoginPage extends React.Component {
                         <input type="password" id="inputPassword" className="form-control" placeholder="Password" required/>
                         <br/>
                         <br/>
-                        <button className="btn btn-lg btn-primary" type="submit" onClick={this.login}>Sign in</button>
+                        <button className="btn btn-lg" type="submit" onClick={this.login}>Sign in</button>
                         <div className="checkbox">
                             <label>
 

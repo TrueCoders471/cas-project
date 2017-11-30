@@ -9,10 +9,22 @@ class Header extends React.Component {
      * UI Reference: see #mainHeader tag in styles.css for UI Behaviour
      * @returns {XML}
      */
+
+    logOut() {
+        location.href = "/login";
+    }
+
+
+
     render() {
         return (
             <div id="mainHeader">
                 <banner-text>Radford University CAS</banner-text>
+                <button className="btn sign-out-btn"
+                        type="submit"
+                        onClick={this.logOut}>
+                    Sign out
+                </button>
             </div>
 
 

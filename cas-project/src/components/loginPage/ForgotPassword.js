@@ -10,7 +10,7 @@ class ForgotPassword extends React.Component {
 
     render() {
         return (
-            <div id="container">
+            <div id="container" className="forgot-password">
                 <form className="form-signin">
                     <br/><br/>
                     <div id="Fields-container">
