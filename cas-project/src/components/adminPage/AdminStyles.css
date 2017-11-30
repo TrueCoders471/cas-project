@@ -12,8 +12,9 @@ th{
     background-color: #c2011b;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: white;
-    text-align: center;
     border: 1px solid black;
+    text-align: center;
+
 }
 
 td{
