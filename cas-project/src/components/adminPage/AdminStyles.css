@@ -1,0 +1,27 @@
+#Center{
+    margin: auto;
+    width: 625px;
+    border: .5px solid lightgray;
+    padding: 10px;
+}
+
+th{
+    padding: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: #c2011b;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+}
+
+td{
+    padding: 20px;
+    width: 100px;
+    height: 60px;
+    border: 1px solid black;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #222222;
+    text-align: center;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import './AdminStyles.css';
 
 class AdminPage extends React.Component {
 
@@ -17,13 +18,12 @@ class AdminPage extends React.Component {
         return (
             <div>
                 <h1>Administrator</h1>
-
-                <button className="btn btn-lg btn-primary" type="submit" onClick={this.viewStudents}>View Registered Students</button>
-                <br /><br />
-                <button className="btn btn-lg btn-primary" type="submit" onClick={this.viewNotetakers}>View Notetakers</button>
-                <br /><br />
-                <button className="btn btn-lg btn-primary" type="submit" onClick={this.viewForms}>CAS Forms</button>
-                <br /><br />
+                    <button className="btn btn-lg btn-primary" type="submit" onClick={this.viewStudents}>View Registered Note Viewers</button>
+                    <br /><br />
+                    <button className="btn btn-lg btn-primary" type="submit" onClick={this.viewNotetakers}>View Note Takers</button>
+                    <br /><br />
+                    <button className="btn btn-lg btn-primary" type="submit" onClick={this.viewForms}>CAS Forms</button>
+                    <br /><br />
             </div>
         );
 
