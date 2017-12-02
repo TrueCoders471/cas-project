@@ -32,8 +32,8 @@ class LoginPage extends React.Component {
     }
 
     drawLogBackground() {
-        return(<div id="loginBackgroundStretch">
-            <img src = {require('./../../../public/images/loginBackground.jpg')}/>
+        return(<div id="loginBackgroundStretch" src>
+            <img className = "background-image" src = {require('./../../../public/images/loginBackground.jpg')}/>
         </div>);
     }
 
