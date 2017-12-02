@@ -9,7 +9,35 @@ class SignUpPage extends React.Component {
      * on click validate email, and passwords are matching
      */
     submitSignupRequest() {
+        // Credentials validation not implemented due to database not
+        // being in iteration 0.
         //switch statements & comparators here
+
+        // Gets the account select element by its id.
+        const acctOptions = document.getElementById("acctTypeSelect");
+
+        // Gets the current selected choice from the menu
+        const selectedAcct = acctOptions.options[acctOptions.selectedIndex].value;
+
+        // Based on selection navigate to appropriate page or display a alert because
+        // of non-selected choice
+        switch(selectedAcct){
+            case "Administrator":
+                location.href = "/admin";
+                break;
+            case "Faculty":
+                location.href = "/faculty";
+                break;
+            case "Student":
+                location.href = "/student";
+                break;
+            case "Notetaker":
+                location.href = "/notetaker";
+                break;
+            default:
+                alert("Account type selection required!");
+        }
+
     }
 
     /**
