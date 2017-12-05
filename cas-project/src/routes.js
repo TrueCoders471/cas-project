@@ -20,6 +20,7 @@ import NotetakerUploadNotes from "./components/notetakerPages/NotetakerUploadNot
 import FacultyPage from "./components/facultyPage/FacultyPage";
 
 
+
 export default (
     <Route path="/" component={App}>
         <IndexRoute component={HomePage}/>

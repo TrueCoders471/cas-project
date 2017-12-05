@@ -14,8 +14,7 @@ class Footer extends React.Component {
     render() {
         return (
             <div id="Footer-Container">
-                <br></br>
-            <div className="footer-padding">
+
                 <IndexLink to="/" activeClassName="active">Home</IndexLink>
                 {" | "}
                 <Link to="/login" activeClassName="active">Login</Link>
@@ -31,8 +30,8 @@ class Footer extends React.Component {
                 <Link to="/faculty" activeClassName="active">Faculty Page</Link>
                 {" | "}
             </div>
-            </div>
         );
+
     }
 }
 

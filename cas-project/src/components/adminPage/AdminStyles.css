@@ -1,11 +1,11 @@
-#Center{
+#Center {
     margin: auto;
     width: 625px;
     border: .5px solid lightgray;
-    padding: 10px;
+    padding: 10px
 }
 
-th{
+th {
     padding: 20px;
     width: 200px;
     height: 50px;
@@ -13,16 +13,37 @@ th{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: white;
     border: 1px solid black;
-    text-align: center;
-
+    text-align: center
 }
 
-td{
+td {
     padding: 20px;
     width: 100px;
     height: 60px;
     border: 1px solid black;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: #222222;
-    text-align: center;
+    text-align: center
+}
+
+span.glyphicon.glyphicon-trash {
+    position: absolute;
+    top: 15%;
+    right: 0%;
+}
+
+span.glyphicon.glyphicon-download {
+    position: absolute;
+    top: 15%;
+    left: 0;
+}
+
+ul.list-group {
+    padding-left: 15%;
+    alignment: center;
+    width: 80%;
+    height:100%;
+    overflow-y: auto;
+
+
 }
