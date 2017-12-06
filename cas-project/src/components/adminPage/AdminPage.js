@@ -1,29 +1,49 @@
 import React from 'react';
 import './AdminStyles.css';
+import StudentsList from "./StudentsList";
+import CasForms from "./CasForms";
+import NotetakersList from "./NotetakersList";
 
 class AdminPage extends React.Component {
 
-    viewStudents(){
+
+    viewStudents() {
         location.href = './studentsList';
     }
 
-    viewNotetakers(){
+    viewNotetakers() {
         location.href = './notetakersList';
     }
 
-    viewForms(){
-        location.href = './casForms';
+    viewForms() {
+        //location.href = './casForms';
+        return <CasForms/>;
     }
+
+
     render() {
         return (
             <div>
                 <h1>Administrator</h1>
-                    <button className="btn btn-lg btn-primary" type="submit" onClick={this.viewStudents}>View Registered Note Viewers</button>
-                    <br /><br />
-                    <button className="btn btn-lg btn-primary" type="submit" onClick={this.viewNotetakers}>View Note Takers</button>
-                    <br /><br />
-                    <button className="btn btn-lg btn-primary" type="submit" onClick={this.viewForms}>CAS Forms</button>
-                    <br /><br />
+                <ul className="nav  nav-tabs nav-justified">
+                    <li className="active"><a data-toggle="tab" href="#students">View Registered Students</a></li>
+                    <li><a data-toggle="tab" href="#notetakers">View Volunteers</a></li>
+                    <li><a data-toggle="tab" href="#casForms">CAS Forms</a></li>
+                </ul>
+                <div className="tab-content">
+                    <div id="students" className="tab-pane fade in active">
+                        <h3>Students</h3>
+                        <StudentsList/>
+                    </div>
+                    <div id="notetakers" className="tab-pane fade">
+                        <h3>Notetakers</h3>
+                        <NotetakersList/>
+                    </div>
+                    <div id="casForms" className="tab-pane fade">
+                        <h3>CAS Forms</h3>
+                        <CasForms/>
+                    </div>
+                </div>
             </div>
         );
 

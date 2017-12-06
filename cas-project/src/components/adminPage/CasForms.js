@@ -9,7 +9,7 @@ class CasForms extends React.Component {
     }
 
     downloadForm() {
-        alert("Dowload Form");
+        alert("Download Form");
     }
 
     render() {

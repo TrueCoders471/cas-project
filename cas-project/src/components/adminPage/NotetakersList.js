@@ -3,11 +3,11 @@ import './AdminStyles.css';
 
 class NotetakersList extends React.Component {
 
-    viewStudents(){
+    viewStudents() {
         location.href = './studentsList';
     }
 
-    viewForms(){
+    viewForms() {
         location.href = './casForms';
     }
 
@@ -17,6 +17,7 @@ class NotetakersList extends React.Component {
                 <br/>
                 <div id="Center">
                     <table>
+                        <tbody>
                         <tr>
                             <th>
                                 Name
@@ -61,12 +62,10 @@ class NotetakersList extends React.Component {
                                 05/11/2016
                             </td>
                         </tr>
+                        </tbody>
                     </table>
                 </div>
                 <br/>
-                <button className="btn btn-lg btn-primary" type="submit" onClick={this.viewStudents}>View Registered Note Viewers</button>
-                <br/><br/>
-                <button className="btn btn-lg btn-primary" type="submit" onClick={this.viewForms}>CAS Forms</button>
             </div>
         );
     }
