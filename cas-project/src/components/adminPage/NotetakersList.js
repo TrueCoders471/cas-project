@@ -2,15 +2,6 @@ import React from 'react';
 import './AdminStyles.css';
 
 class NotetakersList extends React.Component {
-
-    viewStudents() {
-        location.href = './studentsList';
-    }
-
-    viewForms() {
-        location.href = './casForms';
-    }
-
     render() {
         return (
             <div>

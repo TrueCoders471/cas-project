@@ -3,15 +3,6 @@ import './AdminStyles.css';
 
 
 class StudentsList extends React.Component {
-
-    viewNotetakers() {
-        location.href = './notetakersList';
-    }
-
-    viewForms() {
-        location.href = './casForms';
-    }
-
     render() {
         return (
             <div>

@@ -11,7 +11,7 @@ class Header extends React.Component {
      */
 
     logOut() {
-        location.href = "/login";
+        location.href = "/";
     }
 
 
