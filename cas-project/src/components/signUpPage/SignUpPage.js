@@ -76,7 +76,8 @@ class SignUpPage extends React.Component {
                         <br/>
                         <button className="btn btn-lg btn-primary" type="submit" onClick={this.submitSignupRequest}>Sign Up</button>
                         <p>
-                            <a href="/login">Already Have an Account</a>
+                            <a href="/login">Already Have an Account?</a>
+                            <a href="/forgotPassword">Forgot your password?</a>
                         </p>
 
                     </div>
