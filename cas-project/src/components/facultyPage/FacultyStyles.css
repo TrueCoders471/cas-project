@@ -8,3 +8,10 @@
     top: 15%;
     left: 0;
 }
+
+
+.span.glyphicon.glyphicon-log-out {
+    position: absolute;
+    top: 15%;
+    right: 2%;
+}
