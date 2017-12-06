@@ -23,7 +23,7 @@ export default class FacultyClassPage extends React.Component {
                     <li><a data-toggle="tab" href="#notetakers">View Volunteers for Class 1</a></li>
                 </ul>
                 <div className="tab-content">
-                    <div id="students" className="tab-pane fade">
+                    <div id="students" className="tab-pane fade in active">
                         <h3>Students</h3>
                         <FacultyStudentsPage/>
                     </div>

@@ -6,21 +6,6 @@ import NotetakersList from "./NotetakersList";
 
 class AdminPage extends React.Component {
 
-
-    viewStudents() {
-        location.href = './studentsList';
-    }
-
-    viewNotetakers() {
-        location.href = './notetakersList';
-    }
-
-    viewForms() {
-        //location.href = './casForms';
-        return <CasForms/>;
-    }
-
-
     render() {
         return (
             <div>
