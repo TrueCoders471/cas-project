@@ -6,7 +6,7 @@
     text-align: center;
 }
 
-th{
+#tableHeader {
     width: 200vw;
     height: 5vw;
     background-color: #c2011b;
@@ -14,7 +14,10 @@ th{
     color: white;
     border: 1px solid black;
     text-align: center;
-    left: 20%;
+}
+
+tr{
+    text-align: center;
 }
 
 td {
@@ -23,7 +26,7 @@ td {
     border: 1px solid black;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: #222222;
-    text-align: center
+    text-align: center;
 }
 
 span.glyphicon.glyphicon-trash {

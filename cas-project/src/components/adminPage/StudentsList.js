@@ -11,13 +11,13 @@ class StudentsList extends React.Component {
                     <table>
                         <tbody>
                         <tr>
-                            <th>
+                            <th id="tableHeader">
                                 Name
                             </th>
-                            <th>
+                            <th id="tableHeader">
                                 Account Type
                             </th>
-                            <th>
+                            <th id="tableHeader">
                                 Date Submitted
                             </th>
                         </tr>
