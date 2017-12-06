@@ -1,5 +1,5 @@
 import React from 'react';
-//import '../notetakerPages/NTCPStyleSheet.css';
+import './NTCPStyleSheet.css';
 
 class MyClassesNotetakerPage extends React.Component {
     openClass() {
