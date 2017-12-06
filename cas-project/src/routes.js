@@ -21,6 +21,9 @@ import FacultyPage from "./components/facultyPage/FacultyPage";
 import FacultyStudentsPage from "./components/facultyPage/FacultyStudentsPage";
 import FacultyVolunteersPage from "./components/facultyPage/FacultyVolunteersPage";
 import FacultyClassesPage from "./components/facultyPage/FacultyClassesPage";
+import FacultyClass1Page from "./components/facultyPage/FacultyClass1Page";
+import FacultyClass2Page from "./components/facultyPage/FacultyClass2Page";
+import FacultyClass3Page from "./components/facultyPage/FacultyClass3Page";
 
 
 export default (
@@ -44,6 +47,9 @@ export default (
         <Route path="/uploadNotes" component={NotetakerUploadNotes}/>
         <Route path="/faculty" component={FacultyPage}/>
         <Route path="/facultyClasses" component={FacultyClassesPage}/>
+        <Route path="/facultyClass1" component={FacultyClass1Page}/>
+        <Route path="/facultyClass2" component={FacultyClass2Page}/>
+        <Route path="/facultyClass3" component={FacultyClass3Page}/>
         <Route path="/facultyVolunteers" component={FacultyVolunteersPage}/>
         <Route path="/facultyStudents" component={FacultyStudentsPage}/>
 
