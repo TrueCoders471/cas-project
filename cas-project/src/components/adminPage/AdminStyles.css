@@ -7,8 +7,8 @@
 }
 
 th{
-    width: 200px;
-    height: 50px;
+    width: 200vw;
+    height: 5vw;
     background-color: #c2011b;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: white;
@@ -19,7 +19,7 @@ th{
 
 td {
     width: 25%;
-    height: 60px;
+    height: 5vw;
     border: 1px solid black;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: #222222;
