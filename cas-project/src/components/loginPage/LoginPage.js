@@ -60,7 +60,7 @@ class LoginPage extends React.Component {
                                 placeholder="Password" required/>
                         <br/>
                         <br/>
-                        <button className="btn btn-lg" type="submit" onClick={this.login}>Sign in</button>
+                        <button className="btn btn-lg btn-primary" type="submit" onClick={this.login}>Sign in</button>
                         <div className="checkbox">
                             <label>
 
