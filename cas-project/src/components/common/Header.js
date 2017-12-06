@@ -10,9 +10,6 @@ class Header extends React.Component {
      * @returns {XML}
      */
 
-    logOut() {
-        location.href = "/";
-    }
 
 
 
@@ -20,11 +17,6 @@ class Header extends React.Component {
         return (
             <div id="mainHeader">
                 <banner-text>Radford University CAS</banner-text>
-                <button className="btn sign-out-btn"
-                        type="submit"
-                        onClick={this.logOut}>
-                    Sign out
-                </button>
             </div>
 
 

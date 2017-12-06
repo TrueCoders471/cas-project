@@ -46,7 +46,7 @@ html, body {
 
 .btn.sign-out-btn {
     position: fixed;
-    top: 10px;
+    top: 10%;
     right:20px;
     height: 45px;
     background-color: #c2011b;

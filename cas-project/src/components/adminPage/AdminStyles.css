@@ -38,6 +38,12 @@ span.glyphicon.glyphicon-download {
     left: 2%;
 }
 
+span.glyphicon.glyphicon-log-out {
+    position: absolute;
+    top: 15%;
+    right: 2%;
+}
+
 ul.list-group {
     padding-left: 15%;
     alignment: center;
