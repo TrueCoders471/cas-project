@@ -21,9 +21,33 @@ class HomePage extends React.Component {
             <div id = "jumbo-Container">
                     <img id = "Jumbo-Image"
                          src = {require ('./../../../public/images/homepage.jpg')}/>
+                    <div id= "jumbo-caption-container">
+                        <jumbo-text>Welcome To The CAS Student Notes Hub</jumbo-text>
+                    </div>
+
             </div>
-                <br></br>
-                <Link to="login" className="btn btn-primary btn-lg">Login here</Link>
+                <div id ="LowerHomepageView-Container">
+                    <a href="signup">
+                    <div id = "homepage-panel">
+                        <img id = "panel-image"
+                             src = {require ('./../../../public/images/signupPanelImage.jpg')}/>
+                        <div id= "panel-shroud">
+                            <panel-text>Sign Up to Access the
+                                <br></br>services CAS has to offer</panel-text>
+                        </div>
+                    </div>
+                    </a>
+                    <a href="signup">
+                    <div id = "homepage-panel">
+                        <img id = "panel-image"
+                             src = {require ('./../../../public/images/loginPanelImage.jpg')}/>
+                        <div id= "panel-shroud">
+                            <panel-text>Already Have An Account?
+                                <br></br>Sign In Here.</panel-text>
+                        </div>
+                    </div>
+                    </a>
+                </div>
             </div>
         );
 

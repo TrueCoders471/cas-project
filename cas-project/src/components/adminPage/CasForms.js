@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './AdminStyles.css';
 //import AAC from "../../../public/forms/Academic Accommodations Contract - Revised Spring 2017.pdf";
 
 class CasForms extends React.Component {

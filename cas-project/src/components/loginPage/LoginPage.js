@@ -56,7 +56,8 @@ class LoginPage extends React.Component {
                            autoFocus />
                         <br/>
                         <label htmlFor="inoutPassword" className="sr-only">Password</label>
-                        <input type="password" id="inputPassword" className="form-control" placeholder="Password" required/>
+                        <input type="password" id="inputPassword" className="form-control"
+                                placeholder="Password" required/>
                         <br/>
                         <br/>
                         <button className="btn btn-lg" type="submit" onClick={this.login}>Sign in</button>

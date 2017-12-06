@@ -28,14 +28,14 @@ td {
 
 span.glyphicon.glyphicon-trash {
     position: absolute;
-    top: 15%;
-    right: 0%;
+    top: 35%;
+    right: 2%;
 }
 
 span.glyphicon.glyphicon-download {
     position: absolute;
-    top: 15%;
-    left: 0;
+    top: 35%;
+    left: 2%;
 }
 
 ul.list-group {
