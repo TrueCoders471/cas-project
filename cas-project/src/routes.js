@@ -1,5 +1,5 @@
 import React from 'react';
-import {Router as Route, IndexRoute} from 'react-router';
+import {IndexRoute, Router as Route} from 'react-router';
 import App from './components/App';
 import HomePage from './components/homePage/HomePage';
 import LoginPage from './components/loginPage/LoginPage';
@@ -18,7 +18,9 @@ import NotetakerClasses from "./components/notetakerPages/NotetakerClassesPage";
 import NotetakerClass from "./components/classPages/NotetakerClassPage";
 import NotetakerUploadNotes from "./components/notetakerPages/NotetakerUploadNotes";
 import FacultyPage from "./components/facultyPage/FacultyPage";
-
+import FacultyStudentsPage from "./components/facultyPage/FacultyStudentsPage";
+import FacultyVolunteersPage from "./components/facultyPage/FacultyVolunteersPage";
+import FacultyClassesPage from "./components/facultyPage/FacultyClassesPage";
 
 
 export default (
@@ -41,5 +43,9 @@ export default (
         <Route path="/notetakerClass" component={NotetakerClass}/>
         <Route path="/uploadNotes" component={NotetakerUploadNotes}/>
         <Route path="/faculty" component={FacultyPage}/>
+        <Route path="/facultyClasses" component={FacultyClassesPage}/>
+        <Route path="/facultyVolunteers" component={FacultyVolunteersPage}/>
+        <Route path="/facultyStudents" component={FacultyStudentsPage}/>
+
     </Route>
 );
