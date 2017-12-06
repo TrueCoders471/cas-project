@@ -37,7 +37,7 @@ class HomePage extends React.Component {
                         </div>
                     </div>
                     </a>
-                    <a href="signup">
+                    <a href="login">
                     <div id = "homepage-panel">
                         <img id = "panel-image"
                              src = {require ('./../../../public/images/loginPanelImage.jpg')}/>
