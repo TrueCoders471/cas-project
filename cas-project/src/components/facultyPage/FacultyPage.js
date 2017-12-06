@@ -5,6 +5,7 @@ class FacultyPage extends React.Component {
         return (
             <div>
                 <h1>Faculty Page here</h1>
+
             </div>
         );
 
