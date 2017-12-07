@@ -9,7 +9,7 @@ class StudentClass5Page extends React.Component {
 
         return (
             <div>
-                <h4>ITEC 110</h4>
+                <h4>CORE 102</h4>
             <button className="btn btn-lg btn-primary" type="submit" onClick={this.openNotes}>Open Notes for this class</button>
             </div>
         );

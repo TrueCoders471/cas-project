@@ -19,7 +19,11 @@ import StudentClass5 from './components/classPages/StudentClass5Page';
 import StudentNotes from './components/notesPages/StudentNotesPage';
 import NotetakerPage from "./components/notetakerPages/NotetakerPage";
 import NotetakerClasses from "./components/notetakerPages/NotetakerClassesPage";
-import NotetakerClass from "./components/classPages/NotetakerClassPage";
+import NotetakerClass1 from "./components/classPages/NotetakerClass1Page";
+import NotetakerClass2 from "./components/classPages/NotetakerClass2Page";
+import NotetakerClass3 from "./components/classPages/NotetakerClass3Page";
+import NotetakerClass4 from "./components/classPages/NotetakerClass4Page";
+import NotetakerClass5 from "./components/classPages/NotetakerClass5Page";
 import NotetakerUploadNotes from "./components/notetakerPages/NotetakerUploadNotes";
 import FacultyPage from "./components/facultyPage/FacultyPage";
 import FacultyStudentsPage from "./components/facultyPage/FacultyStudentsPage";
@@ -51,7 +55,11 @@ export default (
         <Route path="/studentNotes" component={StudentNotes}/>
         <Route path="/notetaker" component={NotetakerPage}/>
         <Route path="/notetakerClasses" component={NotetakerClasses}/>
-        <Route path="/notetakerClass" component={NotetakerClass}/>
+        <Route path="/notetakerClass1" component={NotetakerClass1}/>
+        <Route path="/notetakerClass2" component={NotetakerClass2}/>
+        <Route path="/notetakerClass3" component={NotetakerClass3}/>
+        <Route path="/notetakerClass4" component={NotetakerClass4}/>
+        <Route path="/notetakerClass5" component={NotetakerClass5}/>
         <Route path="/uploadNotes" component={NotetakerUploadNotes}/>
         <Route path="/faculty" component={FacultyPage}/>
         <Route path="/facultyClasses" component={FacultyClassesPage}/>
