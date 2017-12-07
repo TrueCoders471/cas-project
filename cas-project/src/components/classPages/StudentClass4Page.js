@@ -1,6 +1,6 @@
 import React from 'react';
 
-class StudentClass2Page extends React.Component {
+class StudentClass4Page extends React.Component {
 
     openNotes() {
         location.href ='/studentNotes';
@@ -9,7 +9,7 @@ class StudentClass2Page extends React.Component {
 
         return (
             <div>
-                <h4>ART 100</h4>
+                <h4>ITEC 110</h4>
             <button className="btn btn-lg btn-primary" type="submit" onClick={this.openNotes}>Open Notes for this class</button>
             </div>
         );
@@ -17,4 +17,4 @@ class StudentClass2Page extends React.Component {
     }
 }
 
-export default StudentClass2Page;
+export default StudentClass4Page;
