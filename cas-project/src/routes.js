@@ -13,6 +13,9 @@ import StudentPage from './components/studentPages/StudentPage';
 import StudentClasses from './components/studentPages/StudentClassesPage';
 import StudentClass1 from './components/classPages/StudentClass1Page';
 import StudentClass2 from './components/classPages/StudentClass2Page';
+import StudentClass3 from './components/classPages/StudentClass3Page';
+import StudentClass4 from './components/classPages/StudentClass4Page';
+import StudentClass5 from './components/classPages/StudentClass5Page';
 import StudentNotes from './components/notesPages/StudentNotesPage';
 import NotetakerPage from "./components/notetakerPages/NotetakerPage";
 import NotetakerClasses from "./components/notetakerPages/NotetakerClassesPage";
@@ -42,6 +45,9 @@ export default (
         <Route path="/studentClasses" component={StudentClasses}/>
         <Route path="/studentClass1" component={StudentClass1}/>
         <Route path="/studentClass2" component={StudentClass2}/>
+        <Route path="/studentClass3" component={StudentClass3}/>
+        <Route path="/studentClass4" component={StudentClass4}/>
+        <Route path="/studentClass5" component={StudentClass5}/>
         <Route path="/studentNotes" component={StudentNotes}/>
         <Route path="/notetaker" component={NotetakerPage}/>
         <Route path="/notetakerClasses" component={NotetakerClasses}/>
