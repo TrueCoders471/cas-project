@@ -48,7 +48,7 @@ class HomePage extends React.Component {
                     </div>
                     </a>
                 </div>
-                <div id= "info-div">
+                <div id="info-div">
                     <h2> CAS INFO </h2>
                     <p>The Center for Accessibility Services (CAS) is committed to providing equal educational
                         opportunities for individuals living with disabilities. The CAS serves and supports students,
