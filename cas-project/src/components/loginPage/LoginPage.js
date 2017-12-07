@@ -6,7 +6,7 @@ import './loginPage-Styles.css';
  */
 
 class LoginPage extends React.Component {
-    
+
     drawLogBackground() {
         return (<div id="loginBackgroundStretch" src>
             <img className="background-image" src={require('./../../../public/images/loginBackground.jpg')}/>
