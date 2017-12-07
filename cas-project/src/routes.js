@@ -11,7 +11,8 @@ import Notetakers from './components/adminPage/NotetakersList';
 import CasForms from './components/adminPage/CasForms';
 import StudentPage from './components/studentPages/StudentPage';
 import StudentClasses from './components/studentPages/StudentClassesPage';
-import StudentClass from './components/classPages/StudentClassPage';
+import StudentClass1 from './components/classPages/StudentClass1Page';
+import StudentClass2 from './components/classPages/StudentClass2Page';
 import StudentNotes from './components/notesPages/StudentNotesPage';
 import NotetakerPage from "./components/notetakerPages/NotetakerPage";
 import NotetakerClasses from "./components/notetakerPages/NotetakerClassesPage";
@@ -39,7 +40,8 @@ export default (
         <Route path="/casForms" component={CasForms}/>
         <Route path="/student" component={StudentPage}/>
         <Route path="/studentClasses" component={StudentClasses}/>
-        <Route path="/studentClass" component={StudentClass}/>
+        <Route path="/studentClass1" component={StudentClass1}/>
+        <Route path="/studentClass2" component={StudentClass2}/>
         <Route path="/studentNotes" component={StudentNotes}/>
         <Route path="/notetaker" component={NotetakerPage}/>
         <Route path="/notetakerClasses" component={NotetakerClasses}/>

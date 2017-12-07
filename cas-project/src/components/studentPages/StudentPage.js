@@ -10,7 +10,7 @@ class StudentPage extends React.Component {
      render() {
         return (
             <div>
-                <p>Student here</p>
+                <h3>Student</h3>
                 <span className="glyphicon glyphicon-log-out" onClick={this.logOut}/>
                 <button className="btn btn-lg btn-primary" type="submit" onClick={this.openClasses}>Open Classes</button>
                 <br /><br />
