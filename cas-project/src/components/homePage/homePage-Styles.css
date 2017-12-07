@@ -59,13 +59,13 @@ jumbo-text {
 
 #panel-image{
     display: inline-block;
-    overflow: hidden;
     left: 50%;
     background-position:center;
-    margin-right: auto;
+    margin: auto;
     background-size: cover;
-    width: 100%;
-    height: 20%;
+    width: 50vw;
+    height: 200%;
+
 }
 panel-text {
     top: 15%;
