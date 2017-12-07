@@ -52,8 +52,8 @@ jumbo-text {
     position: absolute;
     top:0;
     z-index: 100;
-    width: 50vw;
-    height: 50vw;
+    width: 100%;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.75);
 }
 
@@ -64,13 +64,13 @@ jumbo-text {
     background-position:center;
     margin: auto;
     background-size: cover;
-    width: 50vw;
-    height: 200%;
+    width: 100%;
+    height: 100%;
 
 }
 panel-text {
     top: 15%;
-    font-size: 3.2vw;
+    font-size: 3vw;
     color: white;
     position: relative;
     vertical-align: middle;
