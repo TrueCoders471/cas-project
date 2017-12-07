@@ -18,9 +18,13 @@ class MyClassesStudentPage extends React.Component {
     openClass5() {
         location.href = "/studentClass5";
     }
+    logOut() {
+        location.href = "/";
+    }
     render() {
         return (
             <div>
+                <span className="glyphicon glyphicon-log-out" onClick={this.logOut}/>
                 <div className="section group">
                     <div className="col span_1_of_5">
                         <div className="card">
