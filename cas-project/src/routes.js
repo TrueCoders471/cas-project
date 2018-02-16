@@ -5,6 +5,7 @@ import HomePage from './components/homePage/HomePage';
 import LoginPage from './components/loginPage/LoginPage';
 import ForgotPassword from "./components/loginPage/ForgotPassword";
 import SignUpPage from './components/signUpPage/SignUpPage';
+import SignupForm from "./components/signUpPage/SignupForm";
 import AdminPage from './components/adminPage/AdminPage';
 import RegisteredStudents from './components/adminPage/StudentsList';
 import Notetakers from './components/adminPage/NotetakersList';
@@ -40,6 +41,7 @@ export default (
         {/*indexRoute used for homepage only*/}
         <Route path="/login" component={LoginPage}/>
         <Route path="/forgotPassword" component={ForgotPassword}/>
+        <Route path="/signupForm" component={SignupForm}/>
         <Route path="/signUp" component={SignUpPage}/>
         <Route path="/admin" component={AdminPage}/>
         <Route path="/studentsList" component={RegisteredStudents}/>

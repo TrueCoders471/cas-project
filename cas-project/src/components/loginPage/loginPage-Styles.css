@@ -13,6 +13,7 @@
 }
 
 #LoginView-Container{
+    text-align: center;
     margin-top: -60px;
     height: 100%;
 }
@@ -59,9 +60,13 @@ h2.form-signin-header {
     color: white;
 }
 
-input {
-    max-width: 200px;
+#inputUserName{
+    max-width: 70%;
 }
+#inputPassword{
+    max-width: 70%;
+}
+
 .form-signin input{
     display: inline-block;
     margin: 0 auto;
