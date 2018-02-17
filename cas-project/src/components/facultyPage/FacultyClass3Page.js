@@ -2,7 +2,7 @@
 import React from 'react';
 import FacultyVolunteersPage from "./FacultyVolunteersPage";
 import FacultyStudentsPage from "./FacultyStudentsPage";
-import FacultyStyles from "./FacultyStyles.css";
+import "./FacultyStyles.css";
 
 export default class FacultyClassPage extends React.Component {
 
