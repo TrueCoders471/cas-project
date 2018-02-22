@@ -34,7 +34,7 @@ class SignUpForm extends React.Component {
                 <div className="form-group col-md-4">
                     <label htmlFor="gender">Gender: </label>
                     <select className="form-control" name="gender" id="found_site">
-                        <option selected>Choose...</option>
+                        <option selected>Choose One </option>
                         <option>Male</option>
                         <option>Female</option>
                         <option>Other</option>
@@ -90,7 +90,7 @@ class SignUpForm extends React.Component {
                     <div className="form-group col-md-4">
                         <label HtmlFor="inputState">State</label>
                         <select id="inputState" className="form-control">
-                            <option selected>Choose...</option>
+                            <option selected>Choose One </option>
                             <option value="AL">Alabama</option>
                             <option value="AK">Alaska</option>
                             <option value="AZ">Arizona</option>
@@ -252,13 +252,13 @@ class SignUpForm extends React.Component {
                                 <div className="checkbox">
                                     <label>
                                         <input type="checkbox" value="" id=""/>
-                                         have a mobility concern that would require an emergency responder?
+                                         I have a mobility concern that would require an emergency responder?
                                     </label>
                                 </div>
                                 <div className="checkbox">
                                     <label>
                                         <input type="checkbox" value="" id=""/>
-                                        need an emergency responder for medical transport to a hospital to receive time
+                                        I need an emergency responder for medical transport to a hospital to receive time
                                         sensative medications for a current medical condition?
                                     </label>
                                 </div>
