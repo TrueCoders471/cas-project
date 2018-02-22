@@ -13,28 +13,33 @@ class SignUpForm extends React.Component {
                 <legend align="top">Basic Details</legend>
                 <div className="form-group col-md-6">
                     <label className=".value" htmlFor="first_name">First name</label>
-                    <input type="text" className="form-control" name="" id="first_name"
+                    <input type="text" name = "firstNameField"className="form-control" id="first_name"
                            placeholder="First Name"/>
                 </div>
                 <div className="form-group col-md-6">
                     <label htmlFor="last_name">Last name</label>
-                    <input type="text" className="form-control" name="last_name" id=""
+                    <input type="text" className="form-control" name="firstNameField" id=""
                            placeholder="Last Name"/>
                 </div>
                 <div className="form-group col-md-4">
                     <label htmlFor="RUID">RU ID#</label>
-                    <input type="text" className="form-control" name="RUID" id=""
+                    <input type="text" className="form-control" name="RUIDField" id=""
                            placeholder="000000000"/>
                 </div>
                 <div className="form-group col-md-4">
                     <label htmlFor="DOB">Birth Date: </label>
-                    <input type="text" className="form-control" name="DOB" id=""
+                    <input type="text" className="form-control" name="DOBField" id=""
                            placeholder="01-23-1998"/>
                 </div>
                 <div className="form-group col-md-4">
                     <label htmlFor="gender">Gender: </label>
+<<<<<<< .merge_file_sjoJkO
                     <select className="form-control" name="gender" id="found_site">
                         <option selected>Choose One </option>
+=======
+                    <select className="form-control" name="genderField" id="found_site">
+                        <option selected>Choose...</option>
+>>>>>>> .merge_file_kIrYKb
                         <option>Male</option>
                         <option>Female</option>
                         <option>Other</option>
@@ -42,20 +47,20 @@ class SignUpForm extends React.Component {
                 </div>
                 <div className="form-group col-md-6">
                     <label htmlFor="">Email</label>
-                    <input type="email" className="form-control" name="" id="" placeholder="@Email.com"/>
+                    <input type="email" className="form-control" name="emailField" id="" placeholder="@Email.com"/>
                 </div>
                 <div className="form-group col-md-6">
                     <label htmlFor="">Phone #</label>
-                    <input type="text" className="form-control" name="" id="" placeholder="000-000-0000"/>
+                    <input type="text" className="form-control" name="phoneNumberField" id="" placeholder="000-000-0000"/>
                 </div>
                 <div className="form-group col-md-6">
                     <label htmlFor="password">Password</label>
-                    <input type="password" className="form-control" name="" id="password"
+                    <input type="password" className="form-control" name="passwordField" id="password"
                            placeholder="Password"/>
                 </div>
                 <div className="form-group col-md-6">
                     <label htmlFor="confirm_password">Confirm Password</label>
-                    <input type="password" className="form-control" name="" id="confirm_password"
+                    <input type="password" className="form-control" name="reenterpasswordField" id="confirm_password"
                            placeholder="Confirm Password"/>
                 </div>
             </div>
@@ -70,27 +75,32 @@ class SignUpForm extends React.Component {
         return (
             <div>
                 <div className="form-group col-md-6">
-                    <label htmlFor="inputAddress2">Street</label>
-                    <input type="text" className="form-control" id="inputAddress"
+                    <label htmlFor="inputAddress">Street</label>
+                    <input type="text" name = "addressField" className="form-control" id="inputAddress"
                            placeholder="1234 Main St"/>
                 </div>
                 <div className="form-group col-md-4">
-                    <label htmlFor="inputAddress">Residential Hall</label>
-                    <input type="text" className="form-control" id="Hall" placeholder="Tyler Hall"/>
+                    <label htmlFor="Hall">Residential Hall</label>
+                    <input type="text" name = "resHallField" className="form-control" id="Hall" placeholder="Tyler Hall"/>
                 </div>
                 <div className="form-group col-md-2">
                     <label HtmlFor="inputZip">Room #</label>
-                    <input type="text" className="form-control" id="inputZip"/>
+                    <input type="text" name = "zipField" className="form-control" id="inputZip"/>
                 </div>
                 <div className="form-row">
                     <div className="form-group col-md-6">
                         <label HtmlFor="inputCity">City</label>
-                        <input type="text" className="form-control" id="inputCity"/>
+                        <input type="text" name = "cityField" className="form-control" id="inputCity"/>
                     </div>
                     <div className="form-group col-md-4">
                         <label HtmlFor="inputState">State</label>
+<<<<<<< .merge_file_sjoJkO
                         <select id="inputState" className="form-control">
                             <option selected>Choose One </option>
+=======
+                        <select id="inputState" name = "stateLetterField" className="form-control">
+                            <option selected>Choose...</option>
+>>>>>>> .merge_file_kIrYKb
                             <option value="AL">Alabama</option>
                             <option value="AK">Alaska</option>
                             <option value="AZ">Arizona</option>
@@ -147,7 +157,7 @@ class SignUpForm extends React.Component {
                     <div className="form-group col-md-2">
                         <label HtmlFor="inputZip">Zip
                         code</label>
-                        <input type="text" className="form-control" id="inputZip"/>
+                        <input type="text" name = "zipfield" className="form-control" id="inputZip"/>
                     </div>
                 </div>
             </div>
@@ -159,55 +169,58 @@ class SignUpForm extends React.Component {
           <div>
               <div className="form-group col-md-6">
                   <label htmlFor="country">Class Standing</label>
-                  <select className="form-control" name="" id="country">
+                  <select className="form-control" name="classStandingField" id="country">
                       <option selected>Choose...</option>
-                      <option>Transfer</option>
-                      <option>Freshman</option>
-                      <option>Sophomore</option>
-                      <option>Junior</option>
-                      <option>Senior</option>
-                      <option>Graduate</option>
+                      <option value = "Transfer">Transfer</option>
+                      <option value = "Freshman">Freshman</option>
+                      <option value = "Sophomore">Sophomore</option>
+                      <option value = "Junior">Junior</option>
+                      <option value = "Senior">Senior</option>
+                      <option value = "Graduate">Graduate</option>
                   </select>
               </div>
 
               <div className="form-group col-md-6" id = "classStandings">
                   <label htmlFor="classStandings">Time Status </label>
                   <br/>
-                  <label className="radio-inline"><input type="radio" name="optradio"/>Full Time</label>
-                  <label className="radio-inline"><input type="radio" name="optradio"/>Part Time</label>
+                  <label className="radio-inline"><input type="radio" name="classStandingField" value = "Full Time"/>
+                      Full Time</label>
+                  <label className="radio-inline"><input type="radio" name="classStandingField" value = "Part Time"/>
+                      Part Time</label>
               </div>
               <div className="form-group col-md-8">
-                  <label htmlFor="found_site">Major</label>
-                  <select className="form-control" name="" id="found_site">
+                  <label htmlFor="Select Major">Major</label>
+                  <select className="form-control" name="majorField" id="Select Major">
                       <option selected>Choose...</option>
-                      <option>Pre-Major</option>
-                      <option disabled>College of Business and Economics</option>
-                      <option>Accounting</option>
-                      <option>Economics</option>
-                      <option>Finance</option>
-                      <option>Management</option>
-                      <option>Marketing</option>
+                      <option value = "Pre-Major">Pre-Major</option>
+                      <option disabled>---College of Business and Economics</option>
+                      <option value = "Accounting">Accounting</option>
+                      <option value = "Economics">Economics</option>
+                      <option value = "Finance">Finance</option>
+                      <option value = "Management">Management</option>
+                      <option value = "Marketing">Marketing</option>
 
                       <option disabled>College of Education and Human Development</option>
-                      <option>Athletic Training</option>
-                      <option>Exercise, Sport and Health Education</option>
-                      <option>Interdisciplinary Studies</option>
-                      <option>Nutrition and Dietetics</option>
-                      <option>Recreation, Parks and Tourism</option>
+                      <option value = "Athletic Training">Athletic Training</option>
+                      <option value = "Exercise, Sport and Health Education">Exercise, Sport and Health Education</option>
+                      <option value = "Interdisciplinary Studies<">Interdisciplinary Studies</option>
+                      <option value = "Nutrition and Dietetics">Nutrition and Dietetics</option>
+                      <option value = "Recreation, Parks and Tourism">Recreation, Parks and Tourism</option>
 
                       <option disabled>College of Humanities and Behavioral Sciences</option>
-                      <option>Communication</option>
-                      <option>Criminal Justice</option>
-                      <option>English</option>
-                      <option>Foreign Languages</option>
-                      <option>History</option>
-                      <option>Interdisciplinary Studies in Liberal Arts</option>
-                      <option>Media Studies</option>
-                      <option>Philosophy and Religious Studies</option>
-                      <option>Political Science</option>
-                      <option>Psychology</option>
-                      <option>Social Science</option>
-                      <option>Sociology</option>
+                      <option value = "Communication">Communication</option>
+                      <option value = "Criminal Justice">Criminal Justice</option>
+                      <option value = "English">English</option>
+                      <option value = "Foreign Languages">Foreign Languages</option>
+                      <option value = "History">History</option>
+                      <option value = "Interdisciplinary Studies in Liberal Arts<">
+                          Interdisciplinary Studies in Liberal Arts</option>
+                      <option value = "Media Studies">Media Studies</option>
+                      <option value = "Philosophy and Religious Studies">Philosophy and Religious Studies</option>
+                      <option value = "Political Science">Political Science</option>
+                      <option value = "Psychology">Psychology</option>
+                      <option value = "Social Science">Social Science</option>
+                      <option value = "Sociology">Sociology</option>
                       <option disabled>Artis College of Science and Technology</option>
                       <option disabled>College of Visual and Performing Arts</option>
                       <option disabled>Waldron College of Health and Human Services</option>
@@ -215,7 +228,7 @@ class SignUpForm extends React.Component {
               </div>
               <div className="form-group col-md-4">
                   <label htmlFor="GraduationDate">Graduation Date: </label>
-                  <input type="text" className="form-control" name="GraduationDate" id=""
+                  <input type="text" className="form-control" name="GraduationDateField" id="GraduationDate"
                          placeholder="Spring 2021"/>
               </div>
           </div>
@@ -251,14 +264,23 @@ class SignUpForm extends React.Component {
                                 <legend align="top"> Emergency Info</legend>
                                 <div className="checkbox">
                                     <label>
+
                                         <input type="checkbox" value="" id=""/>
                                          I have a mobility concern that would require an emergency responder?
+=======
+                                        <input type="checkbox" name = "hasMobilityConcernField" id="mobilityCheckbox"/>
+                                         have a mobility concern that would require an emergency responder?
+
                                     </label>
                                 </div>
                                 <div className="checkbox">
                                     <label>
                                         <input type="checkbox" value="" id=""/>
                                         I need an emergency responder for medical transport to a hospital to receive time
+=======
+                                        <input type="checkbox" name = "reqEmsTransportField" id="emsCheckbox"/>
+                                        need an emergency responder for medical transport to a hospital to receive time
+>>>>>>> .merge_file_kIrYKb
                                         sensative medications for a current medical condition?
                                     </label>
                                 </div>
@@ -267,7 +289,7 @@ class SignUpForm extends React.Component {
                                 <div id ="submit-Container">
                                     <div className="checkbox">
                                         <label>
-                                            <input type="checkbox" value="" id=""/>
+                                            <input type="checkbox" id=""/>
                                             I accept the <a href="#">terms and conditions</a>
                                         </label>
                                     </div>

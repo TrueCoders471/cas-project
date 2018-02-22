@@ -59,12 +59,12 @@ class SignUpPage extends React.Component {
                     </div>
 
                     <label htmlFor="inputUsername" className="sr-only">RU Email</label>
-                    <input type="text" id="inputUserName" className="form-control" placeholder="RU Email" required
+                    <input type="text" name = "usernameField" id="inputUserName" className="form-control" placeholder="RU Email" required
                            autoFocus />
                     <label htmlFor="inoutPassword" className="sr-only">Password</label>
-                    <input type="password" id="inputPassword" className="form-control" placeholder="Password" required/>
+                    <input type="password" name = "passwordField" id="inputPassword" className="form-control" placeholder="Password" required/>
 
-                    <input type="password" id="inputPassword" className="form-control" placeholder="Re-Enter Password" required/>
+                    <input type="password" name = "reenteredPasswordField" id="inputPassword" className="form-control" placeholder="Re-Enter Password" required/>
                     <div className="checkbox">
                       <select id="acctTypeSelect">
                           <option>Select Account Type</option>
