@@ -33,13 +33,11 @@ class SignUpForm extends React.Component {
                 </div>
                 <div className="form-group col-md-4">
                     <label htmlFor="gender">Gender: </label>
-<<<<<<< .merge_file_sjoJkO
-                    <select className="form-control" name="gender" id="found_site">
+                    <select className="form-control" name="gender" id="found_site"/>
                         <option selected>Choose One </option>
-=======
+
                     <select className="form-control" name="genderField" id="found_site">
                         <option selected>Choose...</option>
->>>>>>> .merge_file_kIrYKb
                         <option>Male</option>
                         <option>Female</option>
                         <option>Other</option>
@@ -94,13 +92,11 @@ class SignUpForm extends React.Component {
                     </div>
                     <div className="form-group col-md-4">
                         <label HtmlFor="inputState">State</label>
-<<<<<<< .merge_file_sjoJkO
-                        <select id="inputState" className="form-control">
+
+                        <select id="inputState" className="form-control"/>
                             <option selected>Choose One </option>
-=======
                         <select id="inputState" name = "stateLetterField" className="form-control">
                             <option selected>Choose...</option>
->>>>>>> .merge_file_kIrYKb
                             <option value="AL">Alabama</option>
                             <option value="AK">Alaska</option>
                             <option value="AZ">Arizona</option>
@@ -267,7 +263,7 @@ class SignUpForm extends React.Component {
 
                                         <input type="checkbox" value="" id=""/>
                                          I have a mobility concern that would require an emergency responder?
-=======
+
                                         <input type="checkbox" name = "hasMobilityConcernField" id="mobilityCheckbox"/>
                                          have a mobility concern that would require an emergency responder?
 
@@ -277,7 +273,7 @@ class SignUpForm extends React.Component {
                                     <label>
                                         <input type="checkbox" value="" id=""/>
                                         I need an emergency responder for medical transport to a hospital to receive time
-=======
+
                                         <input type="checkbox" name = "reqEmsTransportField" id="emsCheckbox"/>
                                         need an emergency responder for medical transport to a hospital to receive time
 >>>>>>> .merge_file_kIrYKb
