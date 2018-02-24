@@ -1,5 +1,7 @@
 import React from 'react';
+//npm install --save html-to-reactimport ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
 import './SignUpForm-Styles.css';
+
 class SignUpForm extends React.Component {
 
     /**
@@ -234,11 +236,68 @@ class SignUpForm extends React.Component {
      * renders the components associated with this Account Creation page.
      * @returns {XML} : (Markup Language) for rendering the elements within this page
      */
-    render() {
+    regstudentInfo(){
+        return(
+        <div className="form-group col-md-12">
+            <div id = "RegStudent-border">
+                <p>To become a registered student with the Center for Accessibility Services (CAS), follow these steps:
+                    <br/> </p>
+                <p>1. Complete the Student Registration Form and submit documentation from your medical professional no
+                    later than:</p>
+                <ul>
+                    <li>April 15 if requesting Summer, Maymester, or Augustmester medical housing, classroom, and
+                        testing accommodations</li>
+                    <li>June 30 if requesting medical housing accommodations for the upcoming academic year due to a
+                        medical/physical condition or qualifying disability</li>
+                    <li>July 31 for Fall semester classroom and testing accommodations</li>
+                    <li>December 15 for Spring semester classroom and testing accommodations</li>
+                </ul>
+                <p>2. New students attend QUEST** (see below).</p>
+                <p>3. Complete your interview with your Disability Services Specialist (DSS) prior to the first day of
+                    classes, or as soon as possible, if classes have begun (i.e. Skype, face time, phone, or in- person
+                    interview).
+                </p>
+                <br/>
+                <p><b>NOTE: Once documentation is received and your interview is complete, allow ten (10) business days
+                    to process your package.</b></p>
+                <br/>
+                <p>4. Complete a Request for Accommodations Form and submit it to the CAS.</p>
+                <p>5. Pick-up your accommodation packet once you have been notified.</p>
+                <p>6. Meet with each of your professors/instructors during their office hours to discuss your
+                    accommodation packet and to obtain the necessary signatures.</p>
+                <p>7. Return the white copies of your Academic Accommodations Contracts and any other forms
+                    to the CAS within five business days.</p>
+                <p>8. Submit a Request for Accommodations Form <b>EVERY</b> subsequent semester immediately after
+                    registering for classes.</p>
+                <p>9. Schedule a follow-up appointment with your DSS if you are not receiving an accommodation
+                    or if you need additional support.</p>
+                <br/>
+                <p>**If you are a new student or transfer student to Radford University, QUEST is our campus
+                    orientation. During your visit to campus is an excellent time to schedule a meeting with a DSS.
+                </p>
+                <p>During your interview with your DSS, discuss any challenges you face in the classroom or around
+                    campus. This is a collaborative effort between you and your DSS to see that reasonable
+                    accommodations are implemented and subsequently applied.
+                </p>
+                <p>The DSS may request additional documentation to qualify you for a requested accommodation. You may
+                    also be asked for a letter of impact or be provided with information on where and how to obtain
+                    assessments.
+                </p>
+                <p>Submit Documentation to the CAS by:<br/>
+                    1. Hand delivery to the CAS in Suite 327, Third Floor, Russell Hall<br/>
+                    2. Fax to (540) 831-6525<br/>
+                    3. Scan and attach in an email to CAS@radford.edu<br/>
+                    4. Mail a copy to: Center for Accessibility Services, PO Box 6902, Radford, Virginia 24142<br/>
+                </p>
+            </div>
+        </div>
+        );
+    }
+    render(){
         return (
             <div className="container">
                 <div className="row">
-                    <div className="col-md-8 col-md-offset-2">
+                    <div id = "primary" className="col-md-8 col-md-offset-2">
                         <form role="form" method="POST" action="#">
                             <fieldset>
                                 <legend><h1 className="text-center">General Registration </h1></legend>
@@ -257,27 +316,24 @@ class SignUpForm extends React.Component {
                                 </div>
                             </fieldset>
                             <fieldset>
+                                <legend align="top"> Becoming a Registered Student Terms & Conditions </legend>
+                                {this.regstudentInfo()}
+                            </fieldset>
+                            <fieldset>
                                 <legend align="top"> Emergency Info</legend>
                                 <div className="checkbox">
                                     <label>
 
-                                        <input type="checkbox" value="" id=""/>
-                                         I have a mobility concern that would require an emergency responder?
-
                                         <input type="checkbox" name = "hasMobilityConcernField" id="mobilityCheckbox"/>
-                                         have a mobility concern that would require an emergency responder?
+                                         Do you have a mobility concern that would require an emergency responder?
 
                                     </label>
                                 </div>
                                 <div className="checkbox">
                                     <label>
-                                        <input type="checkbox" value="" id=""/>
-                                        I need an emergency responder for medical transport to a hospital to receive time
-
                                         <input type="checkbox" name = "reqEmsTransportField" id="emsCheckbox"/>
-                                        need an emergency responder for medical transport to a hospital to receive time
->>>>>>> .merge_file_kIrYKb
-                                        sensative medications for a current medical condition?
+                                        Do you need an emergency responder for medical transport to a hospital to
+                                        receive time sensitive medications for a current medical condition?
                                     </label>
                                 </div>
                             </fieldset>
@@ -286,7 +342,8 @@ class SignUpForm extends React.Component {
                                     <div className="checkbox">
                                         <label>
                                             <input type="checkbox" id=""/>
-                                            I accept the <a href="#">terms and conditions</a>
+                                            I accept the terms & conditions of becoming a Becoming a Registered Student,
+                                            listed above.
                                         </label>
                                     </div>
                                     <br/>
@@ -296,7 +353,6 @@ class SignUpForm extends React.Component {
                                     <a href="#">Already have an account?</a>
                                 </div>
                             </div>
-
                         </form>
                     </div>
                 </div>

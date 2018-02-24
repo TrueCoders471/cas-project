@@ -34,7 +34,6 @@ import FacultyClass1Page from "./components/facultyPage/FacultyClass1Page";
 import FacultyClass2Page from "./components/facultyPage/FacultyClass2Page";
 import FacultyClass3Page from "./components/facultyPage/FacultyClass3Page";
 
-
 export default (
     <Route path="/" component={App}>
         <IndexRoute component={HomePage}/>
@@ -70,6 +69,5 @@ export default (
         <Route path="/facultyClass3" component={FacultyClass3Page}/>
         <Route path="/facultyVolunteers" component={FacultyVolunteersPage}/>
         <Route path="/facultyStudents" component={FacultyStudentsPage}/>
-
     </Route>
 );

@@ -30,7 +30,7 @@ class SignUpPage extends React.Component {
                 break;
             case "Student":
                 //location.href = "/student";
-                location.href = "/signupForm"
+                location.href = "/signupForm";
                 break;
             case "Notetaker":
                 location.href = "/notetaker";
