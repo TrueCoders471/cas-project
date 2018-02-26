@@ -33,6 +33,7 @@ import FacultyClassesPage from "./components/facultyPage/FacultyClassesPage";
 import FacultyClass1Page from "./components/facultyPage/FacultyClass1Page";
 import FacultyClass2Page from "./components/facultyPage/FacultyClass2Page";
 import FacultyClass3Page from "./components/facultyPage/FacultyClass3Page";
+import pprs from "./components/notetakerPages/pprs";
 
 export default (
     <Route path="/" component={App}>
@@ -61,6 +62,7 @@ export default (
         <Route path="/notetakerClass3" component={NotetakerClass3}/>
         <Route path="/notetakerClass4" component={NotetakerClass4}/>
         <Route path="/notetakerClass5" component={NotetakerClass5}/>
+        <Route path="/pprs" component={pprs}/>
         <Route path="/uploadNotes" component={NotetakerUploadNotes}/>
         <Route path="/faculty" component={FacultyPage}/>
         <Route path="/facultyClasses" component={FacultyClassesPage}/>
