@@ -312,18 +312,19 @@ class pprs extends React.Component {
                                 {this.policiesAndResponsibilitiesForAlternateTextRequests()}
                             </fieldset>
                             <div className="form-group">
+                                <div className="text-center">
                                 <div id="submit-Container">
                                     <div className="checkbox">
                                         <label>
                                             <input type="checkbox" id=""/>
-                                            I accept the terms & conditions of becoming a Becoming a Registered Student,
-                                            listed above.
+                                            I accept the terms & conditions of the Policies and Procedures for Receiving Services
                                         </label>
                                     </div>
                                     <br/>
-                                    <button type="submit" className="btn btn-primary">Register</button>
+                                    <button type="submit" className="btn btn-primary">Submit</button>
                                     <br/>
                                     <br/>
+                                </div>
                                 </div>
                             </div>
                         </form>
