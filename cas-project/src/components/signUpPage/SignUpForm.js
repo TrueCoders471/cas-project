@@ -35,10 +35,8 @@ class SignUpForm extends React.Component {
                 </div>
                 <div className="form-group col-md-4">
                     <label htmlFor="gender">Gender: </label>
-                    <select className="form-control" name="gender" id="found_site"/>
-                        <option selected>Choose One </option>
 
-                    <select className="form-control" name="genderField" id="found_site">
+                    <select className="form-control" name="genderField" id="gender">
                         <option selected>Choose...</option>
                         <option>Male</option>
                         <option>Female</option>
@@ -84,20 +82,18 @@ class SignUpForm extends React.Component {
                     <input type="text" name = "resHallField" className="form-control" id="Hall" placeholder="Tyler Hall"/>
                 </div>
                 <div className="form-group col-md-2">
-                    <label HtmlFor="inputZip">Room #</label>
-                    <input type="text" name = "zipField" className="form-control" id="inputZip"/>
+                    <label HtmlFor="roomNum">Room #</label>
+                    <input type="text" name = "roomField" className="form-control" id="roomNum" placeholder="101"/>
                 </div>
                 <div className="form-row">
                     <div className="form-group col-md-6">
                         <label HtmlFor="inputCity">City</label>
-                        <input type="text" name = "cityField" className="form-control" id="inputCity"/>
+                        <input type="text" name = "cityField" className="form-control" id="inputCity"
+                               placeholder="Radford"/>
                     </div>
                     <div className="form-group col-md-4">
                         <label HtmlFor="inputState">State</label>
-
-                        <select id="inputState" className="form-control"/>
-                            <option selected>Choose One </option>
-                        <select id="inputState" name = "stateLetterField" className="form-control">
+                        <select id="inputState" name = "stateLetterField" className="form-control" >
                             <option selected>Choose...</option>
                             <option value="AL">Alabama</option>
                             <option value="AK">Alaska</option>
@@ -155,7 +151,7 @@ class SignUpForm extends React.Component {
                     <div className="form-group col-md-2">
                         <label HtmlFor="inputZip">Zip
                         code</label>
-                        <input type="text" name = "zipfield" className="form-control" id="inputZip"/>
+                        <input type="text" name = "zipfield" className="form-control" id="inputZip" placeholder="90210"/>
                     </div>
                 </div>
             </div>
@@ -282,12 +278,6 @@ class SignUpForm extends React.Component {
                 <p>The DSS may request additional documentation to qualify you for a requested accommodation. You may
                     also be asked for a letter of impact or be provided with information on where and how to obtain
                     assessments.
-                </p>
-                <p>Submit Documentation to the CAS by:<br/>
-                    1. Hand delivery to the CAS in Suite 327, Third Floor, Russell Hall<br/>
-                    2. Fax to (540) 831-6525<br/>
-                    3. Scan and attach in an email to CAS@radford.edu<br/>
-                    4. Mail a copy to: Center for Accessibility Services, PO Box 6902, Radford, Virginia 24142<br/>
                 </p>
             </div>
         </div>
