@@ -48,7 +48,7 @@ class pprs extends React.Component {
                     <label htmlFor="initial">(initial) <b>I understand and agree to the CAS policies and
                         responsibilities listed above.</b></label>
                 </div>
-                <div className="form-group col-md-1">
+                <div className="form-group col-md-2">
                     <input type="text" className="form-control" name="studentId" id="initial"
                            placeholder="FL"/>
                 </div>
@@ -80,7 +80,7 @@ class pprs extends React.Component {
                     <label htmlFor="initialRD">(initial) <b>I understand and agree to the policies and
                         responsibilities listed above related to recording devices.</b></label>
                 </div>
-                <div className="form-group col-md-1">
+                <div className="form-group col-md-2">
                     <input type="text" className="form-control" name="initialRD" id="initialRD"
                            placeholder="FL"/>
                 </div>
@@ -107,7 +107,7 @@ class pprs extends React.Component {
                 <div className="form-group col-md-6">
                     <label className=".value" htmlFor="anonymous">Do you want to be Known or Anonymous?</label>
                 </div>
-                <div className="form-group col-md-3">
+                <div className="form-group col-md-6">
                     <label className="radio-inline"><input type="radio" name="yesAnonymous" value="Y"/>
                         Known</label>
                     <label className="radio-inline"><input type="radio" name="noAnonymous" value="N"/>
@@ -135,7 +135,7 @@ class pprs extends React.Component {
                     <label className=".value" htmlFor="responsibilitiesForNTS">(initial) <b>I understand and agree to
                         the policy/responsibility listed above related to note taking services.</b></label>
                 </div>
-                <div className="form-group col-md-1">
+                <div className="form-group col-md-2">
                     <input type="text" className="form-control" name="initialNTS" id="initialNTS"
                            placeholder="FL"/>
                 </div>
@@ -178,7 +178,7 @@ class pprs extends React.Component {
                         policies and responsibilities listed above related to test/quiz/exam
                         proctoring in the CAS.</b></label>
                 </div>
-                <div className="form-group col-md-1">
+                <div className="form-group col-md-2">
                     <input type="text" className="form-control" name="initialTQE" id="initialTQE"
                            placeholder="FL"/>
                 </div>
@@ -217,7 +217,7 @@ class pprs extends React.Component {
                     <label className=".value" htmlFor="responsibilitiesATR">(initial) <b> I understand and agree to all
                         of the policies and responsibilities listed above related to alternate text.</b></label>
                 </div>
-                <div className="form-group col-md-1">
+                <div className="form-group col-md-2">
                     <input type="text" className="form-control" name="initialATR" id="initialATR"
                            placeholder="FL"/>
                 </div>
@@ -324,7 +324,6 @@ class pprs extends React.Component {
                                     <button type="submit" className="btn btn-primary">Register</button>
                                     <br/>
                                     <br/>
-                                    <a href="#">Already have an account?</a>
                                 </div>
                             </div>
                         </form>
