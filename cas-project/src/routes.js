@@ -6,7 +6,6 @@ import LoginPage from './components/loginPage/LoginPage';
 import ForgotPassword from "./components/loginPage/ForgotPassword";
 import SignUpPage from './components/signUpPage/SignUpPage';
 import SignupForm from "./components/signUpPage/SignUpForm";
-import AccommodationsLetter from "./components/Accomodations/AccommodationsLetter";
 import AdminPage from './components/adminPage/AdminPage';
 import RegisteredStudents from './components/adminPage/StudentsList';
 import Notetakers from './components/adminPage/NotetakersList';
@@ -35,7 +34,7 @@ import FacultyClass1Page from "./components/facultyPage/FacultyClass1Page";
 import FacultyClass2Page from "./components/facultyPage/FacultyClass2Page";
 import FacultyClass3Page from "./components/facultyPage/FacultyClass3Page";
 import pprs from "./components/notetakerPages/pprs";
-import RequestForAccommodationsForm from "./components/Accomodations/RequestForAccommodationsForm";
+import proctoringRequestForm from "./components/notetakerPages/proctoringRequestForm";
 
 export default (
     <Route path="/" component={App}>
@@ -44,8 +43,6 @@ export default (
         <Route path="/login" component={LoginPage}/>
         <Route path="/forgotPassword" component={ForgotPassword}/>
         <Route path="/signupForm" component={SignupForm}/>
-            <Route path="/accommodationsLetter" component={AccommodationsLetter}/>
-            <Route path="/requestForAccommodationsForm" component={RequestForAccommodationsForm}/>
         <Route path="/signUp" component={SignUpPage}/>
         <Route path="/admin" component={AdminPage}/>
         <Route path="/studentsList" component={RegisteredStudents}/>
@@ -67,6 +64,7 @@ export default (
         <Route path="/notetakerClass4" component={NotetakerClass4}/>
         <Route path="/notetakerClass5" component={NotetakerClass5}/>
         <Route path="/pprs" component={pprs}/>
+        <Route path="/proctoringRequestForm" component={proctoringRequestForm}/>
         <Route path="/uploadNotes" component={NotetakerUploadNotes}/>
         <Route path="/faculty" component={FacultyPage}/>
         <Route path="/facultyClasses" component={FacultyClassesPage}/>
