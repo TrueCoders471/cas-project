@@ -3,7 +3,9 @@ import React from 'react';
 import './Accommodation-Styles.css';
 
 class AcademicAccommodationsContract extends React.Component {
-
+    goToHub() {
+        location.href ="/hub";
+    }
     formInfo(){
         return(
         <div className="form-group col-md-12">
@@ -135,7 +137,9 @@ class AcademicAccommodationsContract extends React.Component {
                             <fieldset>
                                 {this.legalAgreementInfo()}
                             </fieldset>
-                            <button type="submit" className="btn btn-primary">Register</button>
+                            <div className="text-center">
+                            <button type="button" className="btn btn-primary" onClick={this.goToHub}>Submit</button>
+                            </div>
                         </form>
                     </div>
                 </div>

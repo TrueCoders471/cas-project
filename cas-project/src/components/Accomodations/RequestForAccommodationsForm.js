@@ -3,7 +3,9 @@ import React from 'react';
 import './Accommodation-Styles.css';
 
 class RequestForAccommodationsForm extends React.Component {
-
+    goToHub() {
+        location.href ="/hub";
+    }
     requestInfo(){
         return(
             <div className="form-group col-md-12">
@@ -119,7 +121,9 @@ class RequestForAccommodationsForm extends React.Component {
                             <legend><h1 className="text-center">Request For Accommodations Form</h1></legend>
                             {this.requestInfo()}
                         </fieldset>
-
+                        <div className="text-center">
+                            <button type="button" className="btn btn-primary" onClick={this.goToHub}>Submit</button>
+                        </div>
                     </form>
                 </div>
             </div>

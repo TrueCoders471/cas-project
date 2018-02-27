@@ -3,6 +3,11 @@ import "./proctoringRequestForm-CSS.css";
 
 
 class proctoringRequestForm extends React.Component {
+
+    goToHub() {
+        location.href ="/hub";
+    }
+
     formInfoStudent() {
         return (
             <div>
@@ -279,7 +284,7 @@ class proctoringRequestForm extends React.Component {
                     <div className="form-group">
                         <div id="submit-Container">
                             <br/>
-                            <button type="submit" className="btn btn-primary">Submit</button>
+                            <button type="button" className="btn btn-primary" onClick={this.goToHub}>Submit</button>
                             <br/>
                             <br/>
 
