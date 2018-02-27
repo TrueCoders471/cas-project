@@ -22,23 +22,23 @@ class hub extends React.Component {
                 <div className="form-group col-md-12">
                     <label className=".value" htmlFor="">1. Student Registration:</label>
                     <p>Seen after clicking student sign up.</p>
-                    <label className=".value" htmlFor="">2. Volunteer Note Taker Sign-Up Sheet</label>
-                    <p><a href="../../../public/forms/Volunteer%20Notetaker%20Form%20-%20July%202015.pdf"download>
-                        <b>Volunteer Notetaker Form</b> (Rev. July 2015)</a></p>
-                    <label className=".value" htmlFor="">3. Request for Accommodations Form</label>
+
+                    <label className=".value" htmlFor="">2. Request for Accommodations Form</label>
                     <p><a onClick={this.openRequestForAccommodationsForm} download>
                         <b>Request for Accommodations Form</b> (Rev. Aug. 2017)</a></p>
-                    <label className=".value" htmlFor="">4. Policies and Procedures for Receiving Services</label>
+                    <label className=".value" htmlFor="">3. Policies and Procedures for Receiving Services</label>
                     <p><a onClick={this.pprsForm} download>
                         <b>Policies and Procedures for Receiving Services</b> (Rev. Aug. 2017)</a></p>
-                    <label className=".value" htmlFor="">5. Academic Accommodations Contract</label>
+                    <label className=".value" htmlFor="">4. Academic Accommodations Contract</label>
                     <p><a onClick={this.openAcademicAccommodationsContract} download>
                         <b>Academic Accommodations Contract </b>(Rev. Spring 2017)</a></p>
-                    <label className=".value" htmlFor="">6. Proctoring Request Form</label>
+                    <label className=".value" htmlFor="">5. Proctoring Request Form</label>
                     <p><a onClick={this.proctoringRequestForm} download>
                         <b>Proctoring Request Form</b> (Rev. Aug. 2017)</a></p>
-                    <label className=".value" htmlFor="">7. Accommodation Letter</label>
+                    <label className=".value" htmlFor="">6. Accommodation Letter</label>
                     <p>Received from admin at CAS office</p>
+                    <label className=".value" htmlFor="">7. Volunteer Note Taker Sign-Up Sheet</label>
+                    <p>Coming Soon</p>
                 </div>
             </div>
         );
