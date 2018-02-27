@@ -35,6 +35,7 @@ import FacultyClass2Page from "./components/facultyPage/FacultyClass2Page";
 import FacultyClass3Page from "./components/facultyPage/FacultyClass3Page";
 import pprs from "./components/notetakerPages/pprs";
 import proctoringRequestForm from "./components/notetakerPages/proctoringRequestForm";
+import RequestForAccommodationsForm from "./components/Accomodations/RequestForAccommodationsForm";
 
 export default (
     <Route path="/" component={App}>
@@ -73,5 +74,6 @@ export default (
         <Route path="/facultyClass3" component={FacultyClass3Page}/>
         <Route path="/facultyVolunteers" component={FacultyVolunteersPage}/>
         <Route path="/facultyStudents" component={FacultyStudentsPage}/>
+        <Route path="/requestForAccommodationsForm" component={RequestForAccommodationsForm}/>
     </Route>
 );
