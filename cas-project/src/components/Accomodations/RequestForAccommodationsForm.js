@@ -52,14 +52,14 @@ class RequestForAccommodationsForm extends React.Component {
                     <p> <b>Semester in which accommodations are being requested:</b> </p>
                     <div className="text-center">
                         <div className="form-group col-md-12">
-                            <label className="checkbox-inline"><input type="checkbox" name="SummerOne" value="Y"/>
-                                 Summer 1</label>
-                            <label className="checkbox-inline"><input type="checkbox" name="SummerTwo" value="Y"/>
-                                 Summer 2</label>
-                            <label className="checkbox-inline"><input type="checkbox" name="SummerThree" value="Y"/>
-                                 Summer 3</label>
-                            <label className="checkbox-inline"><input type="checkbox" name="Augustmester" value="Y"/>
-                                 Augustmester</label>
+                            <label className="checkbox-inline"><input type="checkbox" name="Fall" value="Y"/>
+                                Fall</label>
+                            <label className="checkbox-inline"><input type="checkbox" name="Wintermester" value="Y"/>
+                                Wintermester</label>
+                            <label className="checkbox-inline"><input type="checkbox" name="Spring" value="Y"/>
+                                Spring</label>
+                            <label className="checkbox-inline"><input type="checkbox" name="Maymester" value="Y"/>
+                                Maymester</label>
                         </div>
                     </div>
                     <div className="text-center">
