@@ -35,7 +35,7 @@ import FacultyClass2Page from "./components/facultyPage/FacultyClass2Page";
 import FacultyClass3Page from "./components/facultyPage/FacultyClass3Page";
 import pprs from "./components/notetakerPages/pprs";
 import proctoringRequestForm from "./components/notetakerPages/proctoringRequestForm";
-import AcademicAccommodationsContract from "./components/Accomodations/AcademicAccommodationsContract";
+import RequestForAccommodationsForm from "./components/Accomodations/RequestForAccommodationsForm";
 
 export default (
     <Route path="/" component={App}>
@@ -45,7 +45,6 @@ export default (
         <Route path="/forgotPassword" component={ForgotPassword}/>
         <Route path="/signupForm" component={SignupForm}/>
         <Route path="/signUp" component={SignUpPage}/>
-        <Route path="/academicaccommodationsContract" component={AcademicAccommodationsContract}/>
         <Route path="/admin" component={AdminPage}/>
         <Route path="/studentsList" component={RegisteredStudents}/>
         <Route path="/notetakersList" component={Notetakers}/>
@@ -75,5 +74,6 @@ export default (
         <Route path="/facultyClass3" component={FacultyClass3Page}/>
         <Route path="/facultyVolunteers" component={FacultyVolunteersPage}/>
         <Route path="/facultyStudents" component={FacultyStudentsPage}/>
+        <Route path="/requestForAccommodationsForm" component={RequestForAccommodationsForm}/>
     </Route>
 );

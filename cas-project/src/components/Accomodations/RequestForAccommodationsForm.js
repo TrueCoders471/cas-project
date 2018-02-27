@@ -50,56 +50,28 @@ class RequestForAccommodationsForm extends React.Component {
 
                     <br/>
                     <p> <b>Semester in which accommodations are being requested:</b> </p>
-                    <div>
-                        <div className="form-group col-md-3">
-                            <label>
-                                Fall
-                                <input type="checkbox" name = "Fall" className="form-control" id="fallOption"/>
-                            </label>
-                        </div>
-                        <div className="form-group col-md-3">
-                            <label>
-                                Wintermester
-                                <input type="checkbox" name = "Wintermester" className="form-control" id="wintermesterOption"/>
-                            </label>
-                        </div>
-                        <div className="form-group col-md-3">
-                            <label>
-                                Spring
-                                <input type="checkbox" name = "Spring" className="form-control" id="springOption"/>
-                            </label>
-                        </div>
-                        <div className="form-group col-md-3">
-                            <label>
-                                Maymester
-                                <input type="checkbox" name = "Maymester" className="form-control" id="maymesterOption"/>
-                            </label>
+                    <div className="text-center">
+                        <div className="form-group col-md-12">
+                            <label className="checkbox-inline"><input type="checkbox" name="Fall" value="Y"/>
+                                Fall</label>
+                            <label className="checkbox-inline"><input type="checkbox" name="Wintermester" value="Y"/>
+                                Wintermester</label>
+                            <label className="checkbox-inline"><input type="checkbox" name="Spring" value="Y"/>
+                                Spring</label>
+                            <label className="checkbox-inline"><input type="checkbox" name="Maymester" value="Y"/>
+                                Maymester</label>
                         </div>
                     </div>
-                    <div>
-                        <div className="form-group col-md-3">
-                            <label>
-                                Summer 1
-                                <input type="checkbox" name = "SummerOne" className="form-control" id="summerOneOption"/>
-                            </label>
-                        </div>
-                        <div className="form-group col-md-3">
-                            <label>
-                                Summer 2
-                                <input type="checkbox" name = "SummerTwo" className="form-control" id="summerTwoOption"/>
-                            </label>
-                        </div>
-                        <div className="form-group col-md-3">
-                            <label>
-                                Summer 3
-                                <input type="checkbox" name = "SummerThree" className="form-control" id="summerThreeOption"/>
-                            </label>
-                        </div>
-                        <div className="form-group col-md-3">
-                            <label>
-                                Augustmester
-                                <input type="checkbox" name = "SummerOne" className="form-control" id="augustmesterOption"/>
-                            </label>
+                    <div className="text-center">
+                        <div className="form-group col-md-12">
+                            <label className="checkbox-inline"> <input type="checkbox" name="SummerOne" value="Y"/>
+                                Summer 1</label>
+                            <label className="checkbox-inline"> <input type="checkbox" name="SummerTwo" value="Y"/>
+                                Summer 2</label>
+                            <label className="checkbox-inline"> <input type="checkbox" name="SummerThree" value="Y"/>
+                                Summer 3</label>
+                            <label className="checkbox-inline"><input type="checkbox" name="Augustmester" value="Y"/>
+                                Augustmester</label>
                         </div>
                     </div>
                     <div className="form-group col-md-12">
