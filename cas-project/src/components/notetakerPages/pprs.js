@@ -4,10 +4,6 @@ import "./pprs-style.css";
 
 class pprs extends React.Component {
 
-    goToHub(){
-        location.href = "/hub";
-    }
-
     openingInformation() {
         return (
             <div>
@@ -325,7 +321,7 @@ class pprs extends React.Component {
                                         </label>
                                     </div>
                                     <br/>
-                                    <button type="button" className="btn btn-primary" onClick={this.goToHub}>Submit</button>
+                                    <button type="submit" className="btn btn-primary">Submit</button>
                                     <br/>
                                     <br/>
                                 </div>
