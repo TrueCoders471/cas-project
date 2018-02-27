@@ -4,6 +4,9 @@ import './SignUpForm-Styles.css';
 
 class SignUpForm extends React.Component {
 
+    goToHub(){
+        location.href = "/hub";
+    }
     /**
      * returns the XML Representation of the Basic info fields
      * used to collect the user's inputted Basic Account information.
@@ -337,7 +340,7 @@ class SignUpForm extends React.Component {
                                         </label>
                                     </div>
                                     <br/>
-                                    <button type="submit" className="btn btn-primary">Register</button>
+                                    <button type="button" className="btn btn-primary" onClick={this.goToHub}>Register</button>
                                     <br/>
                                     <br/>
                                     <a href="#">Already have an account?</a>
