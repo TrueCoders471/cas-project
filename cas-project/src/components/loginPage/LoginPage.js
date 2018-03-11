@@ -66,7 +66,7 @@ class LoginPage extends React.Component {
                         <br/>
                         <label htmlFor="inputUsername" className="sr-only">RU Email</label>
                         <input type="text" id="inputUserName" className="form-control" required
-                               placeholder="RU Email" autoFocus/>
+                               placeholder="Username" autoFocus/>
                         <br/>
                         <label htmlFor="inoutPassword" className="sr-only">Password</label>
                         <input type="password" id="inputPassword" className="form-control" required
